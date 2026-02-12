@@ -30,6 +30,7 @@ jobs:
         run: |
           pytest
 
-      - name: Run ETL script
-        run: |
-          python src/main.py
+      - name: Deploy
+        run: echo "Deploy step runs only if tests pass"
+          
+
