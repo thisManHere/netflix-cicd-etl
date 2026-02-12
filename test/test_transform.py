@@ -3,7 +3,7 @@ import sys
 import os
 sys.path.append(os.path.join(os.path.dirname(__file__), "../src"))
 
-from src.transform import transform_data
+from transform import transform_data
 
 
 def test_add_director():
